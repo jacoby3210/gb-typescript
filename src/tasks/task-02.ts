@@ -19,5 +19,5 @@
 document.addEventListener('click', (e:MouseEvent) => {
 	const coords = [e.clientX, e.clientY];
 	console.log(`Point is ${coords[0]}, ${coords[1]}`);
-	console.log("Point is %s, %s", {...coords});				//  Альтернативный вариант.
+	console.log("Point is %s, %s", ...coords);				//  Альтернативный вариант.
 });
